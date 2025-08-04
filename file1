@@ -1,12 +1,9 @@
 pipeline {
     agent any
-    parameters {
-        string(name: 'USERNAME', defaultValue: 'kishor', description: 'Enter your name')
-    }
     stages {
-        stage('Greet') {
+        stage('Hello') {
             steps {
-                echo "Hello, ${params.USERNAME}!"
+                echo 'Hello, Jenkins!'
             }
         }
     }
