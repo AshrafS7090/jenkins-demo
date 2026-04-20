@@ -3,6 +3,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "asharf Hello Ashraf how are yodu had dinner!"
+    return "asharf Hello Ashraf how are yod had dinner!"
 
 app.run(host="0.0.0.0", port=5000)
